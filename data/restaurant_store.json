@@ -1,0 +1,446 @@
+{
+  "restaurants": [
+    {
+      "id": "rid_001",
+      "name": "Thattukada & Spice Village",
+      "tagline": "Authentic Flavors of Malabar & Travancore",
+      "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+      "phone": "+91 98470 12345",
+      "gstin": "32AAAAA0000A1Z5",
+      "cgst_rate": 2.5,
+      "sgst_rate": 2.5,
+      "service_charge_rate": 0,
+      "created_at": "2026-07-25T18:22:20.396Z"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "restaurant_id": "rid_001",
+      "table_number": 1,
+      "qr_token": "f08604a0b527",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.401Z"
+    },
+    {
+      "id": "table_2",
+      "restaurant_id": "rid_001",
+      "table_number": 2,
+      "qr_token": "606011d146d2",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.402Z"
+    },
+    {
+      "id": "table_3",
+      "restaurant_id": "rid_001",
+      "table_number": 3,
+      "qr_token": "738515e908be",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.402Z"
+    },
+    {
+      "id": "table_4",
+      "restaurant_id": "rid_001",
+      "table_number": 4,
+      "qr_token": "4c6c8d7d9848",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.403Z"
+    },
+    {
+      "id": "table_5",
+      "restaurant_id": "rid_001",
+      "table_number": 5,
+      "qr_token": "36ea5e486be4",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.405Z"
+    },
+    {
+      "id": "table_6",
+      "restaurant_id": "rid_001",
+      "table_number": 6,
+      "qr_token": "46bcf7cae546",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.405Z"
+    },
+    {
+      "id": "table_7",
+      "restaurant_id": "rid_001",
+      "table_number": 7,
+      "qr_token": "d3932ff0b0e9",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.406Z"
+    },
+    {
+      "id": "table_8",
+      "restaurant_id": "rid_001",
+      "table_number": 8,
+      "qr_token": "d167ff008345",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.406Z"
+    },
+    {
+      "id": "table_9",
+      "restaurant_id": "rid_001",
+      "table_number": 9,
+      "qr_token": "58ab3b47f432",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.407Z"
+    },
+    {
+      "id": "table_10",
+      "restaurant_id": "rid_001",
+      "table_number": 10,
+      "qr_token": "c66203eb1d42",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.407Z"
+    },
+    {
+      "id": "table_11",
+      "restaurant_id": "rid_001",
+      "table_number": 11,
+      "qr_token": "f6e5e2fd0685",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.408Z"
+    },
+    {
+      "id": "table_12",
+      "restaurant_id": "rid_001",
+      "table_number": 12,
+      "qr_token": "b47de6e66d4b",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.408Z"
+    },
+    {
+      "id": "table_13",
+      "restaurant_id": "rid_001",
+      "table_number": 13,
+      "qr_token": "6e796a89651b",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.409Z"
+    },
+    {
+      "id": "table_14",
+      "restaurant_id": "rid_001",
+      "table_number": 14,
+      "qr_token": "29b2e21e496d",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.410Z"
+    },
+    {
+      "id": "table_15",
+      "restaurant_id": "rid_001",
+      "table_number": 15,
+      "qr_token": "c5ccc8dc14f8",
+      "status": "available",
+      "created_at": "2026-07-25T18:22:20.410Z"
+    }
+  ],
+  "table_cart_items": [],
+  "waiter_calls": [],
+  "categories": [
+    {
+      "id": "cat_bf",
+      "restaurant_id": "rid_001",
+      "name_en": "Breakfast",
+      "name_ml": "ബ്രേക്ക്ഫാസ്റ്റ്",
+      "name_hi": "नाश्ता",
+      "display_order": 1
+    },
+    {
+      "id": "cat_sadya",
+      "restaurant_id": "rid_001",
+      "name_en": "Sadya & Meals",
+      "name_ml": "സദ്യ & ഊണ്",
+      "name_hi": "सद्या और भोजन",
+      "display_order": 2
+    },
+    {
+      "id": "cat_seafood",
+      "restaurant_id": "rid_001",
+      "name_en": "Seafood Specials",
+      "name_ml": "സീഫുഡ് സ്പെഷ്യൽ",
+      "name_hi": "सीफूड स्पेशल",
+      "display_order": 3
+    },
+    {
+      "id": "cat_nonveg",
+      "restaurant_id": "rid_001",
+      "name_en": "Malabar Non-Veg",
+      "name_ml": "മാംസാഹാരങ്ങൾ",
+      "name_hi": "मांसाहारी व्यंजन",
+      "display_order": 4
+    },
+    {
+      "id": "cat_snacks",
+      "restaurant_id": "rid_001",
+      "name_en": "Breads & Snacks",
+      "name_ml": "പൊറോട്ട & ലഘുഭക്ഷണം",
+      "name_hi": "रोटी और स्नैक्स",
+      "display_order": 5
+    },
+    {
+      "id": "cat_drinks",
+      "restaurant_id": "rid_001",
+      "name_en": "Drinks & Desserts",
+      "name_ml": "പാനീയങ്ങൾ & പായസം",
+      "name_hi": "पेय और मिठाई",
+      "display_order": 6
+    }
+  ],
+  "menu_items": [
+    {
+      "id": "item_appam_stew",
+      "category_id": "cat_bf",
+      "name_en": "Palappam with Mutton Stew",
+      "name_ml": "പാലപ്പവും മട്ടൻ സ്റ്റൂവും",
+      "name_hi": "पालप्पम और मटन स्टू",
+      "description": "Lacy, soft coconut rice crepes served with rich creamy coconut milk mutton stew loaded with spices and potato.",
+      "price": 240,
+      "veg_flag": 0,
+      "spice_level": 2,
+      "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "appam,palappam,mutton stew,stew,മട്ടൻ സ്റ്റൂ,ആപ്പം"
+    },
+    {
+      "id": "item_puttu_kadala",
+      "category_id": "cat_bf",
+      "name_en": "Steamed Puttu & Kadala Curry",
+      "name_ml": "പുട്ടും കറുത്ത കടലക്കറിയും",
+      "name_hi": "पुट्टू और कला चना करी",
+      "description": "Layered rice flour and freshly grated coconut cylinders served with spiced black chickpea gravy roasted in roasted coconut paste.",
+      "price": 130,
+      "veg_flag": 1,
+      "spice_level": 3,
+      "image_url": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "puttu,kadala,kadala curry,പുട്ട്,കടലക്കറി"
+    },
+    {
+      "id": "item_idiyappam_egg",
+      "category_id": "cat_bf",
+      "name_en": "Idiyappam & Spicy Nadan Egg Roast",
+      "name_ml": "ഇടിയാപ്പവും മുട്ട റോസ്റ്റും",
+      "name_hi": "इडियाप्पम और अंडा रोस्ट",
+      "description": "Steamed string hoppers paired with caramelized onion and tomato fried hard-boiled eggs infused with Kerala garam masala.",
+      "price": 150,
+      "veg_flag": 0,
+      "spice_level": 3,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "idiyappam,egg roast,mutta roast,ഇടിയാപ്പം,മുട്ട റോസ്റ്റ്"
+    },
+    {
+      "id": "item_kerala_sadya",
+      "category_id": "cat_sadya",
+      "name_en": "Grand Kerala Banana Leaf Sadya",
+      "name_ml": "കേരള പാരമ്പര്യ വാഴയില സദ്യ",
+      "name_hi": "केरल केला पत्ता सद्या",
+      "description": "Authentic 24-dish feast served on banana leaf featuring Rose Matta Rice, Parippu, Sambar, Avial, Thoran, Olan, Kalan, Rasam, Inji Puli, Papad, and Payasam.",
+      "price": 320,
+      "veg_flag": 1,
+      "spice_level": 2,
+      "image_url": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "sadya,meals,ila sadya,ഊണ്,സദ്യ,വാഴയില സദ്യ"
+    },
+    {
+      "id": "item_fish_meals",
+      "category_id": "cat_sadya",
+      "name_en": "Kottayam Meen Curry Rice Meal",
+      "name_ml": "കോട്ടയം മീൻകറി ചോറ് ഊണ്",
+      "name_hi": "कोट्टायम मछली करी चावल",
+      "description": "Kerala Matta Red Rice served with spicy Kudampuli fish curry, fish fry slice, cabbage thoran, moru curry, and chammanthi.",
+      "price": 260,
+      "veg_flag": 0,
+      "spice_level": 4,
+      "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "seafood",
+      "station": "fish meals,meen curry meals,oon,മീൻ കറി ഊണ്,മീൻ ഊണ്"
+    },
+    {
+      "id": "item_karimeen_pollichathu",
+      "category_id": "cat_seafood",
+      "name_en": "Karimeen Pollichathu (Pearl Spot)",
+      "name_ml": "കരിമീൻ വാഴയിലയിൽ പൊള്ളിച്ചത്",
+      "name_hi": "करीमीन पोलिच्चतु (केले के पत्ते में सिकी मछली)",
+      "description": "Fresh backwater Pearl Spot fish marinated in shallot-chili masala, wrapped in charred banana leaf and slow-cooked in cold-pressed coconut oil.",
+      "price": 480,
+      "veg_flag": 0,
+      "spice_level": 4,
+      "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "seafood",
+      "station": "karimeen,pollichathu,fish pollichathu,കരിമീൻ,പൊള്ളിച്ചത്"
+    },
+    {
+      "id": "item_chemmeen_roast",
+      "category_id": "cat_seafood",
+      "name_en": "Kerala Spicy Chemmeen Roast (Prawns)",
+      "name_ml": "നാടൻ ചെമ്മീൻ ഫ്രൈ റോസ്റ്റ്",
+      "name_hi": "केरल झींगा रोस्ट",
+      "description": "Juicy ocean prawns sautéed with coconut slices (thenga kothu), crushed curry leaves, black pepper, and garlic.",
+      "price": 420,
+      "veg_flag": 0,
+      "spice_level": 4,
+      "image_url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "seafood",
+      "station": "chemmeen,prawns,prawn roast,ചെമ്മീൻ,ചെമ്മീൻ റോസ്റ്റ്"
+    },
+    {
+      "id": "item_njandu_roast",
+      "category_id": "cat_seafood",
+      "name_en": "Malabar Crab Roast (Njandu Curry)",
+      "name_ml": "മലബാർ ഞണ്ട് ഫ്രൈ റോസ്റ്റ്",
+      "name_hi": "मालाबार केकड़ा रोस्ट",
+      "description": "Whole mud crab tossed in thick dark roasted coconut paste, dry red chilies, fennel seed powder, and curry leaves.",
+      "price": 450,
+      "veg_flag": 0,
+      "spice_level": 5,
+      "image_url": "https://images.unsplash.com/photo-1559742811-822863c46f43?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "seafood",
+      "station": "njandu,crab,crab roast,ഞണ്ട്,ഞണ്ട് റോസ്റ്റ്"
+    },
+    {
+      "id": "item_malabar_biryani",
+      "category_id": "cat_nonveg",
+      "name_en": "Thalassery Chicken Dum Biryani",
+      "name_ml": "തലശ്ശേരി ചിക്കൻ ദം ബിരിയാണി",
+      "name_hi": "थलस्सेरी चिकन दम बिरयानी",
+      "description": "Aromatic short-grain Kaima/Jeerakasala rice cooked with tender chicken, fried cashews, raisins, ghee, and Malabar spices in sealed handi.",
+      "price": 290,
+      "veg_flag": 0,
+      "spice_level": 3,
+      "image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "biryani,chicken biryani,malabar biryani,thalassery biryani,ബിരിയാണി,ചിക്കൻ ബിരിയാണി"
+    },
+    {
+      "id": "item_beef_fry",
+      "category_id": "cat_nonveg",
+      "name_en": "Kerala Beef Ularthiyathu (Slow Fry)",
+      "name_ml": "കേരള സ്പെഷ്യൽ ബീഫ് ഉലർത്തിയത്",
+      "name_hi": "केरल बीफ फ्राई",
+      "description": "Slow-roasted succulent beef chunks coated with dark roasted black pepper, crushed shallots, coconut slivers, and fresh curry leaves.",
+      "price": 270,
+      "veg_flag": 0,
+      "spice_level": 4,
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "tandoor",
+      "station": "beef,beef fry,beef roast,ularthiyathu,ബീഫ്,ബീഫ് ഫ്രൈ,ബീഫ് റോസ്റ്റ്"
+    },
+    {
+      "id": "item_duck_roast",
+      "category_id": "cat_nonveg",
+      "name_en": "Kuttanadan Tharavu (Duck Roast)",
+      "name_ml": "കുട്ടനാടൻ താറാവ് റോസ്റ്റ്",
+      "name_hi": "कुट्टनाड बत्तख रोस्ट",
+      "description": "Tender farm duck slow-simmered in rich coriander-fennel gravy with potatoes and roasted pepper.",
+      "price": 360,
+      "veg_flag": 0,
+      "spice_level": 4,
+      "image_url": "https://images.unsplash.com/photo-1514944288352-fffac99f0bdf?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "main_kitchen",
+      "station": "duck,duck roast,tharavu,താറാവ്,താറാവ് റോസ്റ്റ്"
+    },
+    {
+      "id": "item_malabar_porotta",
+      "category_id": "cat_snacks",
+      "name_en": "Flaky Malabar Flaky Porotta (2 pcs)",
+      "name_ml": "മലബാർ ലെയർ പൊറോട്ട (2 എണ്ണം)",
+      "name_hi": "मालाबार पराठा (2 पीस)",
+      "description": "Hand-tossed, multi-layered crisp golden wheat/maida bread baked on hot griddle with pure ghee.",
+      "price": 60,
+      "veg_flag": 1,
+      "spice_level": 1,
+      "image_url": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "tandoor",
+      "station": "porotta,parotta,malabar porotta,പൊറോട്ട,പരോട്ട"
+    },
+    {
+      "id": "item_pazham_pori",
+      "category_id": "cat_snacks",
+      "name_en": "Crispy Pazham Pori (Banana Fritters - 2 pcs)",
+      "name_ml": "ചൂട് ഏത്തയ്ക്ക അപ്പം / പഴംപൊരി",
+      "name_hi": "केला पकोड़ा (2 पीस)",
+      "description": "Ripe Nendran yellow bananas dipped in cardamom-scented batter and deep-fried till golden crunchy.",
+      "price": 80,
+      "veg_flag": 1,
+      "spice_level": 1,
+      "image_url": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "tandoor",
+      "station": "pazham pori,ethakka appam,banana fry,പഴംപൊരി,ഏത്തയ്ക്ക അപ്പം"
+    },
+    {
+      "id": "item_sulaimani",
+      "category_id": "cat_drinks",
+      "name_en": "Malabar Spiced Sulaimani Tea",
+      "name_ml": "സുലൈമാനി കട്ടൻ ചായ (ഏലയ്ക്ക & ചെറുനാരങ്ങ)",
+      "name_hi": "सुलेमानी ब्लैक टी",
+      "description": "Traditional piping hot black tea infused with cardamom, mint leaves, cloves, and fresh lemon drop.",
+      "price": 40,
+      "veg_flag": 1,
+      "spice_level": 1,
+      "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "beverages",
+      "station": "sulaimani,chaya,black tea,സുലൈമാനി,ചായ,കട്ടൻ ചായ"
+    },
+    {
+      "id": "item_kulukki_sarbath",
+      "category_id": "cat_drinks",
+      "name_en": "Kozhikode Kulukki Sarbath",
+      "name_ml": "കോഴിക്കോടൻ കുലുക്കി സർബത്ത്",
+      "name_hi": "कुलुक्की शर्बत",
+      "description": "Chilled hand-shaken lime drink with basil seeds (nannari), green chili slit, and ginger crushed ice.",
+      "price": 60,
+      "veg_flag": 1,
+      "spice_level": 2,
+      "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "beverages",
+      "station": "kulukki,sarbath,lime juice,കുലുക്കി സർബത്ത്,സർബത്ത്"
+    },
+    {
+      "id": "item_ada_pradhaman",
+      "category_id": "cat_drinks",
+      "name_en": "Palada / Ada Pradhaman Payasam",
+      "name_ml": "നാടൻ അട പ്രഥമൻ പായസം",
+      "name_hi": "अडा प्रथमन पायसम",
+      "description": "Slow-cooked rice ada ribbons in jaggery nectar, thick coconut milk, roasted cashew nuts, and coconut chips.",
+      "price": 120,
+      "veg_flag": 1,
+      "spice_level": 1,
+      "image_url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80",
+      "in_stock": "desserts",
+      "station": "payasam,ada pradhaman,dessert,പായസം,അട പ്രഥമൻ"
+    }
+  ],
+  "orders": [],
+  "order_items": [],
+  "payments": [],
+  "staff_users": [
+    {
+      "id": "staff_admin",
+      "restaurant_id": "rid_001",
+      "name": "Chef Suresh Nair (Manager)",
+      "role": "ADMIN",
+      "phone": "9847012345",
+      "password_hash": "$2a$10$wN9P31X9pQ5b.wR0Vn1D2u.123456"
+    },
+    {
+      "id": "staff_kitchen",
+      "restaurant_id": "rid_001",
+      "name": "Chef Moideen (Head Chef)",
+      "role": "KITCHEN",
+      "phone": "9847054321",
+      "password_hash": "$2a$10$wN9P31X9pQ5b.wR0Vn1D2u.123456"
+    },
+    {
+      "id": "staff_waiter",
+      "restaurant_id": "rid_001",
+      "name": "Vishnu (Lead Waiter)",
+      "role": "WAITER",
+      "phone": "9847099999",
+      "password_hash": "$2a$10$wN9P31X9pQ5b.wR0Vn1D2u.123456"
+    }
+  ],
+  "feedback": []
+}
